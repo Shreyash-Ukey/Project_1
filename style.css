@@ -1,42 +1,20 @@
-.page-footer{
-    background-color: rgb(37, 37, 37);
-}
-
-.footer-copyright, .foot-link{
-    color: white;
-}
-
 .col-md-6{
-    width: 33%;
     height: 300px;
-}
-
-.sub-colum{
-    background-color: #4285F4;
-}
-
-.subscribe-btn{
-    background-color: white;
-    padding: 7px 5px;
-    border:none;
-    border-radius: 6px;
 }
 
 .imgD{
     height: 50px;
 }
 
+/* Search Box */
+
 .search-box{
     width: 50%;
-    margin: 50px auto;
+    margin: 20px auto;
 }
-
-/* Bootstrap 4 text input with search icon */
-
 .has-search .form-control {
     padding-left: 2.375rem;
 }
-
 .has-search .form-control-feedback {
     position: absolute;
     z-index: 2;
@@ -47,4 +25,44 @@
     text-align: center;
     pointer-events: none;
     color: #aaa;
+}
+ 
+/* Slider Css*/
+
+.flickity-back{
+    background: linear-gradient(#221e65, #4444cc, #00d4ff);
+    border-radius: 5px;
+}
+.flickity-heading{
+    text-align: center;
+    color: white;
+    margin: 0px 0px 20px;
+}
+.carousal-container{
+    padding: 50px 0px;
+    width: 1080px;
+    margin: 0px auto;
+}
+.carousel-cell {
+    width: 40%;
+    height: 300px;
+    margin: 10px;
+    background:white;
+    border-radius: 10px;
+  }
+  .content-container{
+    overflow: hidden;
+    padding: 15%; /* 16:9 */
+    position: relative;
+    
+  }
+
+  /*Footer*/
+
+.page-footer{
+    background-color: rgb(37, 37, 37);
+}
+
+.footer-copyright, .foot-link{
+    color: white;
 }
